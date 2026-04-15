@@ -1,23 +1,71 @@
 body {
-    background-image: url(img1.jpg);
+    background-color: black;
    background-size: 100%;
    color: white;
 }
 
 .topbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     top-padding: 40px;
     left-padding: 40px;
     right-padding: 40px;
     font-size: 20px;
-    font-family: "Lucida Console", "Courier New", monospace;
-
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    z-index: 10;
+    width: 99%;
 }
 
 .title {
-    position: absolute;
-    justify-content: center; /* Horizontal centering */
+    position: relative;
+    justify-content: center;
     align-items: center; 
+    z-index: 1;
+    font-family: "Alumni Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    align-items: center;
+    horizontal-align: center;
+    left: 34.3vw;
+    bottom: 35vh;
+    line-height: .8;
+}
+
+.tv {
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20%;
+
+
+}
+
+.tv-container {
+    position: relative;
+    top: 5vh;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    top: 100vh;
+    position: relative;
+}
+
+.p1i {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 15vw;
+
 
 }
