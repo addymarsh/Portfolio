@@ -1,0 +1,23 @@
+body {
+    background-image: url(img1.jpg);
+   background-size: 100%;
+   color: white;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    top-padding: 40px;
+    left-padding: 40px;
+    right-padding: 40px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.title {
+    position: absolute;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; 
+
+}
