@@ -76,18 +76,84 @@ body {
     object-fit: contain;
 }
 
-.p1 {
+.p1, .p2, .p3 {
     display: flex;
     flex-direction: column;
     top: 100vh;
     position: relative;
+    left: 10vw;
 }
 
 .p1i {
     display: flex;
     flex-direction: row;
-    height: 5vh;
-    width: 15vw;
-
+    justify-content: space-between;
+    width: 76vw;
 
 }
+
+.p1i img {
+    height: 70vh;
+    width: auto;
+    object-fit: cover;
+    position: relative;
+    position: relative;
+}
+
+.p1t, .p2t, .p3t {
+    position: relative;
+    font-family: "Major Mono Display", monospace;
+    font-size: 30px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.p1d, .p2d, .p3d {
+    position: relative;
+    font-family: "Nokora", serif;
+    font-weight: 100;
+    font-size: 15px;
+   
+}
+
+
+.p2 {
+    position: relative;
+    top: 150vh;
+}
+
+
+.p2i {
+    display: flex;
+    flex-direction: column;
+    width: 76vw;
+
+}
+
+
+.p2i img {
+    height: 25vw;
+    width: auto;
+    object-fit: cover;
+    position: relative;
+    position: relative;
+
+}
+
+
+
+.p3 {
+    position: relative;
+    top: 200vh;
+}
+
+.p3i img {
+    height: 50vh;
+    width: auto;
+    object-fit: cover;
+    position: relative;
+    position: relative;
+    
+}
+
+
