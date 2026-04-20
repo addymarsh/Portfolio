@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.all {
+    background-color: black;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+.edu-t, .honors-t, .skills-t {
+    position: relative;
+    font-family: "Major Mono Display", monospace;
+    font-size: 60px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: white;
+}
+
+.edu-d, .honors-d, .skills-d {
+    position: relative;
+    font-family: "Nokora", serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 5vh;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top-padding: 40px;
+    left-padding: 40px;
+    right-padding: 40px;
+    font-size: 20px;
+    font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+    position: fixed;
+    z-index: 10;
+    width: 99%;
+    background-color: black;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    top: 0vh;
+    padding-left: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a clicked {
+    text-decoration: none;
+    color: white;
+}
+
+
+

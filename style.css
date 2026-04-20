@@ -76,7 +76,7 @@ body {
     object-fit: contain;
 }
 
-.p1, .p2, .p3 {
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
     display: flex;
     flex-direction: column;
     top: 100vh;
@@ -100,7 +100,7 @@ body {
     position: relative;
 }
 
-.p1t, .p2t, .p3t {
+.p1t, .p2t, .p3t, .p4t, .p5t, .p6t, .p7t {
     position: relative;
     font-family: "Major Mono Display", monospace;
     font-size: 30px;
@@ -108,7 +108,7 @@ body {
     padding-bottom: 1vh;
 }
 
-.p1d, .p2d, .p3d {
+.p1d, .p2d, .p3d, .p4d, .p5d, .p6d, .p7d {
     position: relative;
     font-family: "Nokora", serif;
     font-weight: 100;
@@ -132,8 +132,8 @@ body {
 
 
 .p2i img {
-    height: 25vw;
-    width: auto;
+    
+
     object-fit: cover;
     position: relative;
     position: relative;
@@ -147,13 +147,107 @@ body {
     top: 200vh;
 }
 
+.p3i {
+    display: flex;
+    flex-direction: column;
+    width: 76vw;
+
+}
+
+
 .p3i img {
-    height: 50vh;
-    width: auto;
+    
+
     object-fit: cover;
     position: relative;
     position: relative;
+
+}
+
+.p4 {
+    position: relative;
+    top: 250vh;
+}
+
+.p4i video {
+    width: 76vw;
+}
+
+.p5 {
+    position: relative;
+    top: 300vh;
+}
+
+.p5i {
+    display: flex;
+    flex-direction: column;
+    width: 76vw;
+
+}
+
+
+.p5i img {
     
+
+    object-fit: cover;
+    position: relative;
+    position: relative;
+
+}
+
+.p6 {
+    position: relative;
+    top: 350vh;
+}
+
+.p6i {
+    display: flex;
+    flex-direction: column;
+    width: 76vw;
+
+}
+
+
+.p6i img {
+    
+
+    object-fit: cover;
+    position: relative;
+    position: relative;
+
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+a clicked {
+    text-decoration: none;
+    color: white;
+}
+
+.p7 {
+    position: relative;
+    top: 400vh;
+    padding-bottom: 10vh;
+}
+
+.p7i {
+    display: flex;
+    flex-direction: column;
+    width: 76vw;
+
+}
+
+
+.p7i img {
+    
+
+    object-fit: cover;
+    position: relative;
+    position: relative;
+
 }
 
 
