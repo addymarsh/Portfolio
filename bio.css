@@ -65,3 +65,7 @@ a clicked {
     color: white;
 }
 
+a:hover {
+    color: greenyellow;
+}
+
