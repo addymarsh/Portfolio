@@ -2,7 +2,15 @@ html,
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     background-color: black;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .all {
@@ -43,7 +51,10 @@ body {
   font-style: normal;
     position: fixed;
     z-index: 10;
-    width: 99%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
     background-color: black;
     padding-top: 1vh;
     padding-bottom: 1vh;
