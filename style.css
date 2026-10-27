@@ -16,6 +16,7 @@ body {
     background-color: black;
    background-size: 100%;
    color: white;
+   padding-bottom: 20vh;
 }
 
 body::-webkit-scrollbar {
@@ -101,9 +102,18 @@ body::-webkit-scrollbar {
 .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
     display: flex;
     flex-direction: column;
-    top: 100vh;
     position: relative;
-    left: 10vw;
+    width: 76vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p1 {
+    margin-top: 100vh;
+}
+
+.p2, .p3, .p4, .p5, .p6, .p7, .p8 {
+    margin-top: 50vh;
 }
 
 .p1i {
@@ -139,12 +149,6 @@ body::-webkit-scrollbar {
 }
 
 
-.p2 {
-    position: relative;
-    top: 150vh;
-}
-
-
 .p2i {
     display: flex;
     flex-direction: column;
@@ -164,11 +168,6 @@ body::-webkit-scrollbar {
 
 
 
-.p3 {
-    position: relative;
-    top: 200vh;
-}
-
 .p3i {
     display: flex;
     flex-direction: column;
@@ -186,13 +185,24 @@ body::-webkit-scrollbar {
 
 }
 
-.p4 {
-    position: relative;
-    top: 250vh;
+.p4i video {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.p4i video {
+.p5i, .p6i, .p7i {
+    display: flex;
+    flex-direction: column;
     width: 76vw;
+}
+
+.p5i img, .p6i img, .p7i img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    display: block;
 }
 
 
